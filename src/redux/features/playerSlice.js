@@ -13,6 +13,8 @@ const playerSlice = createSlice({
   name: 'player',
   initialState,
   reducers: {
+
+    // set current songs
     setActiveSong: (state, action) => {
       state.activeSong = action.payload.song;
 
@@ -28,6 +30,7 @@ const playerSlice = createSlice({
       state.isActive = true;
     },
 
+    // go to next song
     nextSong: (state, action) => {
       if (state.currentSongs[action.payload]?.track) {
         state.activeSong = state.currentSongs[action.payload]?.track;
@@ -39,6 +42,7 @@ const playerSlice = createSlice({
       state.isActive = true;
     },
 
+    // Go to previous song
     prevSong: (state, action) => {
       if (state.currentSongs[action.payload]?.track) {
         state.activeSong = state.currentSongs[action.payload]?.track;
@@ -50,6 +54,7 @@ const playerSlice = createSlice({
       state.isActive = true;
     },
 
+    // handle play/pause
     playPause: (state, action) => {
       state.isPlaying = action.payload;
     },
