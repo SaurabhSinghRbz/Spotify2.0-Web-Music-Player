@@ -1,27 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+/* eslint-disable quotes */
 import { useSelector } from 'react-redux';
 
 import { Error, Loader, SongCard } from '../components';
 import { useGetSongsByCountryQuery } from '../redux/services/shazamCore';
 
 const CountryTracks = () => {
-  const [country, setCountry] = useState('');
-  const [loading, setLoading] = useState(true);
   const { activeSong, isPlaying } = useSelector((state) => state.player);
-  const { data, isFetching, error } = useGetSongsByCountryQuery(country);
+  const { data, isFetching, error } = useGetSongsByCountryQuery("IN");
 
-  useEffect(() => {
-    axios
-      .get(`https://geo.ipify.org/api/v2/country?apiKey=${import.meta.env.VITE_GEO_API_KEY}`)
-      .then((res) => setCountry(res?.data?.location.country))
-      .catch((err) => console.log(err))
-      .finally(() => setLoading(false));
-  }, [country]);
+  if (isFetching) return <Loader title="Loading Songs around you..." />;
 
-  if (isFetching && loading) return <Loader title="Loading Songs around you..." />;
-
-  if (error && country !== '') return <Error />;
+  if (error) return <Error />;
 
   return (
     <div className="flex flex-col">
