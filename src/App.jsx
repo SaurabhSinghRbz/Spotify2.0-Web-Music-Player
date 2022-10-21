@@ -15,7 +15,9 @@ import {
 
 const App = () => {
   const { activeSong } = useSelector((state) => state.player);
-
+  if (activeSong.title) {
+    document.title = activeSong.title;
+  }
   return (
     <div className="relative flex">
       <Sidebar />
