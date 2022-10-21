@@ -1,5 +1,6 @@
 /* eslint-disable quotes */
 import React from "react";
+import { AiFillFastBackward, AiFillFastForward } from "react-icons/ai";
 
 const Seekbar = ({ value, min, max, onInput, setSeekTime, appTime }) => {
   // converts the time to format 0:00
@@ -9,9 +10,9 @@ const Seekbar = ({ value, min, max, onInput, setSeekTime, appTime }) => {
       <button
         type="button"
         onClick={() => setSeekTime(appTime - 5)}
-        className="hidden lg:mr-4 lg:block text-white"
+        className="hidden lg:mr-4 lg:block text-white text-2xl"
       >
-        -
+        <AiFillFastBackward />
       </button>
       <p className="text-white">{value === 0 ? "0:00" : getTime(value)}</p>
       <input
@@ -27,9 +28,9 @@ const Seekbar = ({ value, min, max, onInput, setSeekTime, appTime }) => {
       <button
         type="button"
         onClick={() => setSeekTime(appTime + 5)}
-        className="hidden lg:ml-4 lg:block text-white"
+        className="hidden lg:ml-4 lg:block text-white text-2xl"
       >
-        +
+        <AiFillFastForward />
       </button>
     </div>
   );
