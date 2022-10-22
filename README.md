@@ -20,3 +20,13 @@
 - It can lead to better learning.
 - It can improve memory.
 - It can help treat mental illness.
+
+## 3. Music’s effects on mood :
+- It can help lower anxiety.
+- It helps the symptoms of depression.
+
+## 4. Music’s effects on the body :
+- It can help your heart health.
+- It decreases fatigue.
+- It boosts exercise performance.
+- It can help manage pain.
