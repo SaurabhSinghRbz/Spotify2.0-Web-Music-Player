@@ -35,6 +35,22 @@
 # _About Project_
 This is not a clone of the Spotify website. It is just a simple music website. I just named it Spotify 2.0, it's not a clone. So please don't compare it with the original website.
 
+## Features of website :
+- On the landing page, you will be able to see top songs around the world and in the right part top artists and top albums as well.
+- You can search songs on the basis of different types of genres.
+- You can search any song.
+- You can play any song.
+- You can turn on the loop/repeat functionality.
+- You can turn on the suffle functionality.
+- You can go to the next and previous song as well.
+- You can go fast-forward and fast-backward by clicking on respective buttons.
+- You can control the music volume as well.
+- On clicking on any song title, You can see its full lyrics if it's available.
+- On clicking on any artist's name, You will see details of that artist.
+- In the sidebar, there are four options, Discover, around you, top artists, and top charts.
+- This whole website is fully responsive, you can use it on your mobile and tab as well.
+
+
 ## Instructions to browse the project :
 
 First you need to clone or download this project from here.
