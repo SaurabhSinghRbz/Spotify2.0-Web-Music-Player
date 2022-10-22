@@ -9,24 +9,79 @@
   The tones or sounds employed, occurring in single line (melody) or multiple lines (harmony), and sounded or to be sounded by one or more voices or instruments, or both.
   
 # _The Benefits of Listening to Music_
-## 1. Music connects us :
+### 1. Music connects us :
 - National anthems connect crowds at sporting events.
 - Protest songs stir a sense of shared purpose during marches.
 - Hymns build group identity in houses of worship.
 - Love songs help prospective partners bond during courtship.
 - Lullabies enable parents and infants to develop secure attachments.
 
-## 2. Music’s effects on the mind :
+### 2. Music’s effects on the mind :
 - It can lead to better learning.
 - It can improve memory.
 - It can help treat mental illness.
 
-## 3. Music’s effects on mood :
+### 3. Music’s effects on mood :
 - It can help lower anxiety.
 - It helps the symptoms of depression.
 
-## 4. Music’s effects on the body :
+### 4. Music’s effects on the body :
 - It can help your heart health.
 - It decreases fatigue.
 - It boosts exercise performance.
 - It can help manage pain.
+
+
+# _About Project_
+This is not a clone of the Spotify website. It is just a simple music website. I just named it Spotify 2.0, it's not a clone. So please don't compare it with the original website.
+
+## Instructions to browse the project :
+
+First you need to clone or download this project from here.
+
+https://github.com/SaurabhSinghRbz/Spotify2.0-Web-Music-Player.git
+
+After cloning the project you need to install its dependencies, for this run this command.
+Do this in both folders (client and Server)
+```
+npm i 
+```
+or
+```
+npm intall
+```
+
+If you are visiting after long time and you are facing issue with installing the dependencies, then you can use this command.
+```
+npm i --force
+```
+or
+```
+npm i --legacy-peer-deps
+```
+
+After successful clone, run this command to run it on localhost server
+```
+npm run dev
+```
+### Note :
+After running it on localhost, you will not be able to see any song, you will see something went wrong because I am using my Shazam core API key. So you have to create your own API key first.
+### [Shazam Core Api](https://rapidapi.com/tipsters/api/shazam-core/)
+
+
+## Technologies Used :
+   Technologies that I used to build this project are listed below, if you are not familier with any of them, you can click on it and read it.
+- [Javascript](https://www.w3schools.com/js/default.asp)
+- [React](https://reactjs.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/guide/)
+- [HTML-5](https://www.w3schools.com/html/)   
+- [CSS-3](https://www.w3schools.com/css/default.asp)
+
+## Feedback :
+If you think of anything that could have been better, share your thoughts, and I'll be happy to work on that.
+
+# _Thank you...._
+
+
