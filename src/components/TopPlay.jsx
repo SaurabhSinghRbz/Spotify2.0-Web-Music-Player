@@ -50,7 +50,9 @@ const TopPlay = () => {
     divRef.current.scrollIntoView({ behavior: 'smooth' });
   });
 
-  const topPlays = data?.slice(0, 10);
+  // const topPlays = data?.slice(0, 10);
+  const topArtists = data?.slice(0, 10);
+  const topCharts = data?.slice(10, 20);
 
   const handlePauseClick = () => {
     dispatch(playPause(false));
@@ -80,7 +82,7 @@ const TopPlay = () => {
           modules={[FreeMode]}
           className="mt-4"
         >
-          {topPlays?.slice(0, 10).map((artist) => (
+          {topArtists?.slice(0, 10).map((artist) => (
             <SwiperSlide
               key={artist?.key}
               style={{ width: '25%', height: 'auto' }}
@@ -102,7 +104,7 @@ const TopPlay = () => {
         </div>
 
         <div className="mt-4 flex flex-col gap-1">
-          {topPlays?.map((song, i) => (
+          {topCharts?.map((song, i) => (
             <TopChartCard
               key={song.key}
               song={song}
