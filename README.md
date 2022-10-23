@@ -95,10 +95,7 @@ After running it on localhost, you will not be able to see any song, you will se
 - [HTML-5](https://www.w3schools.com/html/)   
 - [CSS-3](https://www.w3schools.com/css/default.asp)
 
-# _Demo Video_
 
-
-https://user-images.githubusercontent.com/90378786/197379398-f32a05a8-b5c5-4636-bd3c-e83f93b831a5.mp4
 
 
 
