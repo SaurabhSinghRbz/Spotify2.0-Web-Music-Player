@@ -1,6 +1,6 @@
 /* eslint-disable quotes */
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { HiOutlineHashtag, HiOutlineHome, HiOutlineMenu, HiOutlinePhotograph, HiOutlineUserGroup } from 'react-icons/hi';
 import { RiCloseLine } from 'react-icons/ri';
 
@@ -35,8 +35,10 @@ const Sidebar = () => {
   return (
     <>
       <div className="md:flex hidden flex-col w-[240px] py-10 px-4  bg-[#191624]">
-        <img src={logo} alt="logo" className="w-full h-24 object-contain" />
-        <img src={titleLogo} alt="logo" className="w-full h-6 object-contain mt-2" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="w-full h-24 object-contain" />
+          <img src={titleLogo} alt="logo" className="w-full h-6 object-contain mt-2" />
+        </Link>
         <NavLinks />
       </div>
 
