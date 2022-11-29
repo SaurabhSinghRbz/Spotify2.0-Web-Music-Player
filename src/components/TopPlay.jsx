@@ -52,7 +52,8 @@ const TopPlay = () => {
 
   // const topPlays = data?.slice(0, 10);
   const topArtists = data?.slice(0, 10);
-  const topCharts = data?.slice(10, 20);
+  const topCharts = data?.slice(0, 10);
+  if (topCharts && topCharts.length > 0) topCharts.reverse();
 
   const handlePauseClick = () => {
     dispatch(playPause(false));
