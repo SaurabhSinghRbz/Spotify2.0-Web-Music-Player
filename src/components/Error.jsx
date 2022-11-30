@@ -6,19 +6,8 @@
 import React from 'react';
 
 const Error = () => {
-  const sendEmail = () => {
-    fetch(`https://formspree.io/f/${import.meta.env.VITE_MY_FORSPREE_URL_CODE}`, {
-      method: "POST",
-      body: JSON.stringify(
-        {
-          "email": "singhsaurabh8576@gmail.com",
-          "message": "Your spotify 2.0 api-key has been reached its limit. Please update the api-key."
-        }
-      ),
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
+  const sendEmail = async () => {
+    await fetch(import.meta.env.VITE_GOOGLE_SHEET_EMAIL_URL);
   };
 
   React.useEffect(() => {
