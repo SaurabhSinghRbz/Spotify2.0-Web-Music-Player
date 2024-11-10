@@ -7,7 +7,7 @@
 # _Music_
 
 An art of sound in time that expresses ideas and emotions in significant forms through the elements of rhythm, melody, harmony, and color.
-The tones or sounds employed, occurring in single line (melody) or multiple lines (harmony), and sounded or to be sounded by one or more voices or instruments, or both.
+The tones or sounds employed, occur in a single line (melody) or multiple lines (harmony), and sounded or to be sounded by one or more voices or instruments, or both.
 
 # _The Benefits of Listening to Music_
 
@@ -44,11 +44,11 @@ This is not a clone of the Spotify website. It is just a simple music website. I
 ## Features of website :
 
 - On the landing page, you will be able to see top songs around the world and in the right part top artists and top albums as well.
-- You can search songs on the basis of different types of genres.
-- You can search any song.
+- You can search songs based on different types of genres.
+- You can search for any song.
 - You can play any song.
 - You can turn on the loop/repeat functionality.
-- You can turn on the suffle functionality.
+- You can turn on the shuffle functionality.
 - You can go to the next and previous song as well.
 - You can go fast-forward and fast-backward by clicking on respective buttons.
 - You can control the music volume as well.
@@ -59,7 +59,7 @@ This is not a clone of the Spotify website. It is just a simple music website. I
 
 ## Instructions to browse the project :
 
-First you need to clone or download this project from here.
+First, you need to clone or download this project from here.
 
 https://github.com/SaurabhSinghRbz/Spotify2.0-Web-Music-Player.git
 
@@ -76,7 +76,7 @@ or
 npm install
 ```
 
-If you are visiting after long time and you are facing issue with installing the dependencies, then you can use this command.
+If you are visiting after a long time and you are facing an issue with installing the dependencies, then you can use this command.
 
 ```
 npm i --force
@@ -88,7 +88,7 @@ or
 npm i --legacy-peer-deps
 ```
 
-After successful clone, run this command to run it on localhost server
+After the successful clone, run this command to run it on the localhost server
 
 ```
 npm run dev
@@ -113,8 +113,8 @@ Technologies that I used to build this project are listed below, if you are not 
 - [CSS-3](https://www.w3schools.com/css/default.asp)
 
 
-## _[Demo Video](https://www.linkedin.com/posts/saurabh-singh-rbz1602_javascriptdeveloper-github-react-activity-6989862529459994624-3DtU?utm_source=share&utm_medium=member_android)_
-You can see demo vieo on clicking on it.
+## _[Demo Video](https://www.linkedin.com/posts/saurabhsinghrbz_javascriptdeveloper-github-react-activity-6989862529459994624-thoD?utm_source=share&utm_medium=member_desktop)_
+You can see the demo video by clicking on it.
 
 
 
